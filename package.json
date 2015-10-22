@@ -4,7 +4,7 @@
   "description": "A simple kanban application built with React",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/zds97/kanban-react/issues"
   },
-  "homepage": "https://github.com/zds97/kanban-react#readme"
+  "homepage": "https://github.com/zds97/kanban-react#readme",
+  "devDependencies": {
+    "css-loader": "^0.21.0",
+    "html-webpack-plugin": "^1.6.2",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  }
 }
