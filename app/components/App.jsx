@@ -5,18 +5,17 @@ import Notes from './Notes.jsx';
 const notes = [
   {
     id: uuid.v4(),
-    task: 'Learn Webpack'
+    task: 'Learn Webpack',
   },
   {
     id: uuid.v4(),
-    task: 'Learn React'
+    task: 'Learn React',
   },
   {
     id: uuid.v4(),
-    task: 'Do laundry'
-  }
+    task: 'Do laundry',
+  },
 ];
-
 
 export default class App extends React.Component {
   render() {

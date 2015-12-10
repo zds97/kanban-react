@@ -1,16 +1,16 @@
 import React from 'react';
-import Note from './Note.jsx'
+import Note from './Note.jsx';
 
 export default class Notes extends React.component {
-  render(){
+  render() {
     const notes = this.props.items;
 
-    return <ul className="notes">{notes.map(this.renderNote)}</ul>
+    return <ul className='notes'>{notes.map(this.renderNote)}</ul>;
   }
 
-  renderNote(note){
+  renderNote(note) {
     return (
-      <li className="note" key={note.id}>
+      <li className='note' key={note.id}>
         <Note task={note.task} />
       </li>
     );
